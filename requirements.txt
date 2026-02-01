@@ -1,0 +1,50 @@
+# PRISM Experiment - Requirements
+# Python 3.10+ required
+
+# =============================================================================
+# LLM & AI Frameworks
+# =============================================================================
+boto3>=1.34.0                    # AWS SDK for Bedrock
+botocore>=1.34.0                 # AWS core
+
+# =============================================================================
+# Web Search & Fetch
+# =============================================================================
+duckduckgo-search>=4.1.0         # DuckDuckGo search API
+httpx>=0.27.0                    # Async HTTP client for web fetch
+beautifulsoup4>=4.12.0           # HTML parsing
+html2text>=2024.2.0              # HTML to markdown conversion
+
+# =============================================================================
+# Configuration & Validation
+# =============================================================================
+pydantic>=2.5.0                  # Data validation and settings
+pydantic-settings>=2.1.0         # Settings management from env/files
+pyyaml>=6.0.1                    # YAML configuration parsing
+
+# =============================================================================
+# Async & Concurrency
+# =============================================================================
+aiofiles>=23.2.0                 # Async file operations
+
+# =============================================================================
+# Logging & Observability
+# =============================================================================
+structlog>=24.1.0                # Structured logging
+rich>=13.7.0                     # Rich terminal output and logging
+
+# =============================================================================
+# UI / Chat Interface
+# =============================================================================
+gradio>=4.15.0                   # Web UI for chatbot interface
+
+# =============================================================================
+# CLI Interface
+# =============================================================================
+prompt_toolkit>=3.0.0            # Interactive CLI with history/autocomplete
+
+# =============================================================================
+# Utilities
+# =============================================================================
+python-dateutil>=2.8.2           # Date/time utilities
+tenacity>=8.2.0                  # Retry logic for API calls
